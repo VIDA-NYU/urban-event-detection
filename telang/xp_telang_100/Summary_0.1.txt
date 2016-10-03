@@ -1,0 +1,408 @@
+Telang anomaly result file for - gridRes: 100 | Gini: 0.1
+Number of clusters reported: 40
+Space size - Min / Mean / Max: 13 / 82.75 / 309
+Timespan - Min / Mean / Max: 1 / 7.125 / 19
+Test statistic - Min / Mean / Max: 36917.3731769 / 65824.0543811 / 132935.571488
+High counts anomaly / Total anomalies: 1.0
+
+
+1.Timespan: 2011-10-7_3 to 2011-10-7_20
+Space size: 18
+Score: 132935.571488
+Sum cluster cell: 314372
+Sum neighbors cell: 535060
+Sum cluster / neighbor: 0.58754532202
+Mean cluster cell: 970.3
+Mean neighbors cell: 410.3
+Mean cluster / neighbor: 2.36485498416
+
+2.Timespan: 2011-10-9_5 to 2011-10-9_18
+Space size: 17
+Score: 123997.850986
+Sum cluster cell: 233160
+Sum neighbors cell: 368265
+Sum cluster / neighbor: 0.633131033359
+Mean cluster cell: 979.7
+Mean neighbors cell: 366.8
+Mean cluster / neighbor: 2.67093784079
+
+3.Timespan: 2011-10-21_2 to 2011-10-21_20
+Space size: 15
+Score: 113479.197344
+Sum cluster cell: 275622
+Sum neighbors cell: 483493
+Sum cluster / neighbor: 0.570064096068
+Mean cluster cell: 967.1
+Mean neighbors cell: 415.4
+Mean cluster / neighbor: 2.32811747713
+
+4.Timespan: 2011-10-17_2 to 2011-10-17_18
+Space size: 15
+Score: 103191.451417
+Sum cluster cell: 241158
+Sum neighbors cell: 426699
+Sum cluster / neighbor: 0.565171233117
+Mean cluster cell: 945.7
+Mean neighbors cell: 399.5
+Mean cluster / neighbor: 2.36720901126
+
+5.Timespan: 2011-10-6_3 to 2011-10-6_5
+Space size: 100
+Score: 98728.7209827
+Sum cluster cell: 314460
+Sum neighbors cell: 751231
+Sum cluster / neighbor: 0.418592949439
+Mean cluster cell: 1048.2
+Mean neighbors cell: 518.1
+Mean cluster / neighbor: 2.02316155182
+
+6.Timespan: 2011-10-31_2 to 2011-10-31_19
+Space size: 16
+Score: 98634.2458915
+Sum cluster cell: 225711
+Sum neighbors cell: 395679
+Sum cluster / neighbor: 0.570439674585
+Mean cluster cell: 783.7
+Mean neighbors cell: 327.5
+Mean cluster / neighbor: 2.39297709924
+
+7.Timespan: 2011-10-5_2 to 2011-10-5_17
+Space size: 16
+Score: 96757.7794789
+Sum cluster cell: 237402
+Sum neighbors cell: 453913
+Sum cluster / neighbor: 0.523012119062
+Mean cluster cell: 927.4
+Mean neighbors cell: 403.8
+Mean cluster / neighbor: 2.29668152551
+
+8.Timespan: 2011-10-24_3 to 2011-10-24_5
+Space size: 73
+Score: 94255.6851404
+Sum cluster cell: 240667
+Sum neighbors cell: 580810
+Sum cluster / neighbor: 0.4143644221
+Mean cluster cell: 1098.9
+Mean neighbors cell: 497.7
+Mean cluster / neighbor: 2.20795660036
+
+9.Timespan: 2011-10-30_6 to 2011-10-30_17
+Space size: 17
+Score: 94198.9845264
+Sum cluster cell: 194782
+Sum neighbors cell: 376742
+Sum cluster / neighbor: 0.517016950592
+Mean cluster cell: 954.8
+Mean neighbors cell: 384.4
+Mean cluster / neighbor: 2.48387096774
+
+10.Timespan: 2011-10-10_2 to 2011-10-10_16
+Space size: 13
+Score: 83987.8053074
+Sum cluster cell: 191072
+Sum neighbors cell: 401364
+Sum cluster / neighbor: 0.476056646834
+Mean cluster cell: 979.9
+Mean neighbors cell: 416.4
+Mean cluster / neighbor: 2.3532660903
+
+11.Timespan: 2011-10-16_8 to 2011-10-16_18
+Space size: 17
+Score: 81761.8522322
+Sum cluster cell: 186174
+Sum neighbors cell: 355360
+Sum cluster / neighbor: 0.523902521387
+Mean cluster cell: 995.6
+Mean neighbors cell: 419.1
+Mean cluster / neighbor: 2.37556669053
+
+12.Timespan: 2011-10-29_7 to 2011-10-29_10
+Space size: 125
+Score: 78352.6465268
+Sum cluster cell: 424928
+Sum neighbors cell: 935134
+Sum cluster / neighbor: 0.454403326154
+Mean cluster cell: 849.9
+Mean neighbors cell: 496.4
+Mean cluster / neighbor: 1.71212731668
+
+13.Timespan: 2011-10-28_2 to 2011-10-28_18
+Space size: 14
+Score: 71891.719062
+Sum cluster cell: 213356
+Sum neighbors cell: 454438
+Sum cluster / neighbor: 0.469494188426
+Mean cluster cell: 896.5
+Mean neighbors cell: 427.1
+Mean cluster / neighbor: 2.09904003746
+
+14.Timespan: 2011-10-23_8 to 2011-10-23_16
+Space size: 19
+Score: 71147.8912655
+Sum cluster cell: 179399
+Sum neighbors cell: 375069
+Sum cluster / neighbor: 0.478309324418
+Mean cluster cell: 1049.1
+Mean neighbors cell: 466.5
+Mean cluster / neighbor: 2.24887459807
+
+15.Timespan: 2011-10-5_3 to 2011-10-5_5
+Space size: 63
+Score: 68093.7601836
+Sum cluster cell: 209846
+Sum neighbors cell: 566729
+Sum cluster / neighbor: 0.370275740257
+Mean cluster cell: 1110.3
+Mean neighbors cell: 547.0
+Mean cluster / neighbor: 2.02979890311
+
+16.Timespan: 2011-10-27_4 to 2011-10-27_5
+Space size: 159
+Score: 65455.1804917
+Sum cluster cell: 329307
+Sum neighbors cell: 938645
+Sum cluster / neighbor: 0.350832316797
+Mean cluster cell: 1035.6
+Mean neighbors cell: 601.7
+Mean cluster / neighbor: 1.72112348346
+
+17.Timespan: 2011-10-8_7 to 2011-10-8_18
+Space size: 15
+Score: 61939.6282519
+Sum cluster cell: 182598
+Sum neighbors cell: 400128
+Sum cluster / neighbor: 0.45634896833
+Mean cluster cell: 1014.4
+Mean neighbors cell: 483.2
+Mean cluster / neighbor: 2.09933774834
+
+18.Timespan: 2011-10-2_9 to 2011-10-2_18
+Space size: 17
+Score: 61641.2761642
+Sum cluster cell: 151617
+Sum neighbors cell: 311770
+Sum cluster / neighbor: 0.486310421144
+Mean cluster cell: 891.9
+Mean neighbors cell: 391.7
+Mean cluster / neighbor: 2.27699770232
+
+19.Timespan: 2011-10-11_4 to 2011-10-11_15
+Space size: 19
+Score: 60282.4651582
+Sum cluster cell: 208068
+Sum neighbors cell: 447782
+Sum cluster / neighbor: 0.464663608631
+Mean cluster cell: 912.6
+Mean neighbors cell: 460.7
+Mean cluster / neighbor: 1.98089863252
+
+20.Timespan: 2011-10-20_4 to 2011-10-20_5
+Space size: 160
+Score: 60151.4124371
+Sum cluster cell: 304406
+Sum neighbors cell: 876361
+Sum cluster / neighbor: 0.347352289753
+Mean cluster cell: 951.3
+Mean neighbors cell: 554.0
+Mean cluster / neighbor: 1.71714801444
+
+21.Timespan: 2011-10-14_4 to 2011-10-14_5
+Space size: 137
+Score: 56106.805986
+Sum cluster cell: 269321
+Sum neighbors cell: 833116
+Sum cluster / neighbor: 0.323269508688
+Mean cluster cell: 982.9
+Mean neighbors cell: 566.0
+Mean cluster / neighbor: 1.73657243816
+
+22.Timespan: 2011-10-17_4 to 2011-10-17_10
+Space size: 75
+Score: 55092.0507973
+Sum cluster cell: 450496
+Sum neighbors cell: 952991
+Sum cluster / neighbor: 0.472718000485
+Mean cluster cell: 858.1
+Mean neighbors cell: 554.4
+Mean cluster / neighbor: 1.5477994228
+
+23.Timespan: 2011-10-18_4 to 2011-10-18_5
+Space size: 165
+Score: 54296.9718338
+Sum cluster cell: 301376
+Sum neighbors cell: 919442
+Sum cluster / neighbor: 0.32778141525
+Mean cluster cell: 913.3
+Mean neighbors cell: 547.3
+Mean cluster / neighbor: 1.66873743833
+
+24.Timespan: 2011-10-25_4 to 2011-10-25_5
+Space size: 131
+Score: 53015.7797554
+Sum cluster cell: 258528
+Sum neighbors cell: 835237
+Sum cluster / neighbor: 0.309526517623
+Mean cluster cell: 986.7
+Mean neighbors cell: 572.1
+Mean cluster / neighbor: 1.72469847929
+
+25.Timespan: 2011-10-14_20 to 2011-10-14_22
+Space size: 81
+Score: 52169.365404
+Sum cluster cell: 201687
+Sum neighbors cell: 603503
+Sum cluster / neighbor: 0.334193864819
+Mean cluster cell: 830.0
+Mean neighbors cell: 446.0
+Mean cluster / neighbor: 1.86098654709
+
+26.Timespan: 2011-10-21_19 to 2011-10-21_22
+Space size: 125
+Score: 52029.4172487
+Sum cluster cell: 319053
+Sum neighbors cell: 800123
+Sum cluster / neighbor: 0.398754941428
+Mean cluster cell: 638.1
+Mean neighbors cell: 388.4
+Mean cluster / neighbor: 1.64289392379
+
+27.Timespan: 2011-10-19_3 to 2011-10-19_4
+Space size: 71
+Score: 50076.1980139
+Sum cluster cell: 163900
+Sum neighbors cell: 564613
+Sum cluster / neighbor: 0.290287329551
+Mean cluster cell: 1154.2
+Mean neighbors cell: 590.6
+Mean cluster / neighbor: 1.95428377921
+
+28.Timespan: 2011-10-14_15 to 2011-10-14_22
+Space size: 37
+Score: 49038.611845
+Sum cluster cell: 185172
+Sum neighbors cell: 379166
+Sum cluster / neighbor: 0.488366572952
+Mean cluster cell: 625.6
+Mean neighbors cell: 324.6
+Mean cluster / neighbor: 1.92729513247
+
+29.Timespan: 2011-10-10_14 to 2011-10-10_15
+Space size: 250
+Score: 48037.3852843
+Sum cluster cell: 331119
+Sum neighbors cell: 1036813
+Sum cluster / neighbor: 0.319362315094
+Mean cluster cell: 662.2
+Mean neighbors cell: 419.8
+Mean cluster / neighbor: 1.57741781801
+
+30.Timespan: 2011-10-5_3 to 2011-10-5_4
+Space size: 166
+Score: 43062.841623
+Sum cluster cell: 245890
+Sum neighbors cell: 976642
+Sum cluster / neighbor: 0.251770863838
+Mean cluster cell: 740.6
+Mean neighbors cell: 452.6
+Mean cluster / neighbor: 1.63632346443
+
+31.Timespan: 2011-10-3_3 to 2011-10-3_4
+Space size: 63
+Score: 42827.8874199
+Sum cluster cell: 126955
+Sum neighbors cell: 447949
+Sum cluster / neighbor: 0.283413960071
+Mean cluster cell: 1007.6
+Mean neighbors cell: 497.7
+Mean cluster / neighbor: 2.02451275869
+
+32.Timespan: 2011-10-29_16 to 2011-10-29_23
+Space size: 34
+Score: 42648.2928803
+Sum cluster cell: 213766
+Sum neighbors cell: 493459
+Sum cluster / neighbor: 0.433199110767
+Mean cluster cell: 785.9
+Mean neighbors cell: 450.2
+Mean cluster / neighbor: 1.74566859174
+
+33.Timespan: 2011-10-4_15 to 2011-10-4_17
+Space size: 167
+Score: 42362.0884847
+Sum cluster cell: 372613
+Sum neighbors cell: 1201555
+Sum cluster / neighbor: 0.310108983775
+Mean cluster cell: 743.7
+Mean neighbors cell: 498.4
+Mean cluster / neighbor: 1.49217495987
+
+34.Timespan: 2011-10-7_3 to 2011-10-7_6
+Space size: 125
+Score: 40893.4679478
+Sum cluster cell: 353854
+Sum neighbors cell: 1041382
+Sum cluster / neighbor: 0.339792698549
+Mean cluster cell: 707.7
+Mean neighbors cell: 470.8
+Mean cluster / neighbor: 1.50318606627
+
+35.Timespan: 2011-10-24_4 to 2011-10-24_5
+Space size: 250
+Score: 40145.1222702
+Sum cluster cell: 353342
+Sum neighbors cell: 1538338
+Sum cluster / neighbor: 0.229690744167
+Mean cluster cell: 706.7
+Mean neighbors cell: 478.6
+Mean cluster / neighbor: 1.47659841204
+
+36.Timespan: 2011-10-13_15 to 2011-10-13_21
+Space size: 13
+Score: 38718.1206834
+Sum cluster cell: 89594
+Sum neighbors cell: 230153
+Sum cluster / neighbor: 0.389280174493
+Mean cluster cell: 984.6
+Mean neighbors cell: 429.4
+Mean cluster / neighbor: 2.2929669306
+
+37.Timespan: 2011-10-11_3 to 2011-10-11_4
+Space size: 96
+Score: 38423.4447057
+Sum cluster cell: 167602
+Sum neighbors cell: 705117
+Sum cluster / neighbor: 0.237693886263
+Mean cluster cell: 872.9
+Mean neighbors cell: 495.9
+Mean cluster / neighbor: 1.76023391813
+
+38.Timespan: 2011-10-29_15 to 2011-10-29_15
+Space size: 88
+Score: 38345.0560508
+Sum cluster cell: 100983
+Sum neighbors cell: 620702
+Sum cluster / neighbor: 0.162691597578
+Mean cluster cell: 1147.5
+Mean neighbors cell: 555.7
+Mean cluster / neighbor: 2.06496310959
+
+39.Timespan: 2011-10-29_6 to 2011-10-29_9
+Space size: 19
+Score: 37870.7694965
+Sum cluster cell: 92140
+Sum neighbors cell: 287465
+Sum cluster / neighbor: 0.320525977075
+Mean cluster cell: 1212.4
+Mean neighbors cell: 548.6
+Mean cluster / neighbor: 2.20998906307
+
+40.Timespan: 2011-10-12_15 to 2011-10-12_15
+Space size: 309
+Score: 36917.3731769
+Sum cluster cell: 237507
+Sum neighbors cell: 1341982
+Sum cluster / neighbor: 0.176982254606
+Mean cluster cell: 768.6
+Mean neighbors cell: 489.6
+Mean cluster / neighbor: 1.56985294118
+

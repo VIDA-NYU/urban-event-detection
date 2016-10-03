@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+
+	<Style id="high-rate-placemark"><IconStyle><Icon><href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href><scale>0.25</scale></Icon></IconStyle></Style>
+	<Style id="low-rate-placemark"><IconStyle><Icon><href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href><scale>0.25</scale></Icon></IconStyle></Style>
+
+	<name>T_360_0.01</name>
+ 
+	<Style id="cluster-1-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-1-stylemap"><Pair><key>normal</key><styleUrl>#cluster-1-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-1-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>1</name>
+		<snippet>Telang Cluster #1</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-6T04:59:00Z</begin><end>2011-10-6T05:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-1-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-6_4 to 2011-10-6_5</value></Data><Data name="Mean density"><value>10466.4</value></Data><Data name="Test statistic"><value>19505</value></Data><Data name="Mean (clust / neighb)"><value>1.71</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.97875,40.7601195,500 -73.9766175,40.755397,500 -73.9808825,40.758545,500 -73.974485,40.7569705,500 -73.983015,40.7569715,500 -73.9723525,40.758545,500 -73.9851475,40.755397,500 -73.974485,40.7601195,500 -73.983015,40.7538225,500 -73.97875,40.7538225,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.97875,40.756971,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 1 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.983015,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.758545,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-2-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-2-stylemap"><Pair><key>normal</key><styleUrl>#cluster-2-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-2-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>2</name>
+		<snippet>Telang Cluster #2</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-13T04:59:00Z</begin><end>2011-10-13T05:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-2-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-13_4 to 2011-10-13_5</value></Data><Data name="Mean density"><value>10512.3</value></Data><Data name="Test statistic"><value>13387</value></Data><Data name="Mean (clust / neighb)"><value>1.66</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.9808825,40.758545,500 -73.97875,40.7538225,500 -73.9766175,40.755397,500 -73.983015,40.7569715,500 -73.9851475,40.755397,500 -73.9766175,40.758545,500 -73.983015,40.7538225,500 -73.97875,40.7601195,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.980349375,40.7565775,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 2 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.983015,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.758545,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-3-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-3-stylemap"><Pair><key>normal</key><styleUrl>#cluster-3-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-3-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>3</name>
+		<snippet>Telang Cluster #3</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-18T04:59:00Z</begin><end>2011-10-18T04:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-3-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-18_4 to 2011-10-18_4</value></Data><Data name="Mean density"><value>10914.4</value></Data><Data name="Test statistic"><value>12589</value></Data><Data name="Mean (clust / neighb)"><value>1.82</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.97875,40.7601195,500 -73.9766175,40.755397,500 -73.9808825,40.758545,500 -73.974485,40.7569705,500 -73.983015,40.7569715,500 -73.9723525,40.758545,500 -73.9851475,40.755397,500 -73.974485,40.7601195,500 -73.983015,40.7538225,500 -73.97875,40.7538225,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.97875,40.756971,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 3 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.983015,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.758545,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-4-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-4-stylemap"><Pair><key>normal</key><styleUrl>#cluster-4-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-4-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>4</name>
+		<snippet>Telang Cluster #4</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-28T04:59:00Z</begin><end>2011-10-28T05:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-4-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-28_4 to 2011-10-28_5</value></Data><Data name="Mean density"><value>9948.0</value></Data><Data name="Test statistic"><value>12153</value></Data><Data name="Mean (clust / neighb)"><value>1.64</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.9808825,40.758545,500 -73.97875,40.7538225,500 -73.9766175,40.755397,500 -73.983015,40.7569715,500 -73.9851475,40.755397,500 -73.9766175,40.758545,500 -73.983015,40.7538225,500 -73.97875,40.7601195,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.980349375,40.7565775,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 4 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.983015,40.755397,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-5-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-5-stylemap"><Pair><key>normal</key><styleUrl>#cluster-5-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-5-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>5</name>
+		<snippet>Telang Cluster #5</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-19T04:59:00Z</begin><end>2011-10-19T05:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-5-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-19_4 to 2011-10-19_5</value></Data><Data name="Mean density"><value>10738.9</value></Data><Data name="Test statistic"><value>11447</value></Data><Data name="Mean (clust / neighb)"><value>1.59</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.9766175,40.755397,500 -73.97875,40.7601195,500 -73.9808825,40.758545,500 -73.974485,40.7569705,500 -73.9723525,40.758545,500 -73.9808825,40.755397,500 -73.974485,40.7601195,500 -73.97875,40.7538225,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.977150625,40.7573645,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 5 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.758545,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-6-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-6-stylemap"><Pair><key>normal</key><styleUrl>#cluster-6-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-6-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>6</name>
+		<snippet>Telang Cluster #6</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-29T15:59:00Z</begin><end>2011-10-29T15:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-6-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-29_15 to 2011-10-29_15</value></Data><Data name="Mean density"><value>10535.2</value></Data><Data name="Test statistic"><value>11032</value></Data><Data name="Mean (clust / neighb)"><value>1.76</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.97875,40.7569705,500 -73.983015,40.7632685,500 -73.9851475,40.761694,500 -73.9766175,40.758545,500 -73.9851475,40.758545,500 -73.9766175,40.761694,500 -73.983015,40.7569705,500 -73.97875,40.7632685,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.9808825,40.7601195,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 6 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.983015,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.761694,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.983015,40.761694,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-7-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-7-stylemap"><Pair><key>normal</key><styleUrl>#cluster-7-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-7-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>7</name>
+		<snippet>Telang Cluster #7</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-4T15:59:00Z</begin><end>2011-10-4T16:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-7-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-4_15 to 2011-10-4_16</value></Data><Data name="Mean density"><value>6381.1</value></Data><Data name="Test statistic"><value>10781</value></Data><Data name="Mean (clust / neighb)"><value>1.43</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.991546,40.7380805,500 -73.995811,40.7475265,500 -73.9979435,40.745952,500 -73.9894135,40.739655,500 -73.9979435,40.742803,500 -73.98728,40.7412285,500 -73.9851475,40.742803,500 -73.9979435,40.739655,500 -73.98728,40.7443775,500 -73.9979435,40.736506,500 -73.9894135,40.745952,500 -73.995811,40.7349315,500 -73.991546,40.7475265,500 -73.9936785,40.736506,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.9927643571,40.7416787857,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 7 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.995811,40.742803,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.991546,40.742803,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.987280,40.742803,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.991546,40.745952,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.991546,40.739655,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.995811,40.736506,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.995811,40.739655,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.995811,40.745952,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-8-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-8-stylemap"><Pair><key>normal</key><styleUrl>#cluster-8-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-8-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>8</name>
+		<snippet>Telang Cluster #8</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-5T04:59:00Z</begin><end>2011-10-5T04:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-8-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-5_4 to 2011-10-5_4</value></Data><Data name="Mean density"><value>10421.1</value></Data><Data name="Test statistic"><value>9941</value></Data><Data name="Mean (clust / neighb)"><value>1.71</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.97875,40.7601195,500 -73.9766175,40.755397,500 -73.9808825,40.758545,500 -73.974485,40.7569705,500 -73.983015,40.7569715,500 -73.9723525,40.758545,500 -73.9851475,40.755397,500 -73.974485,40.7601195,500 -73.983015,40.7538225,500 -73.97875,40.7538225,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.97875,40.756971,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 8 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.983015,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.758545,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-9-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-9-stylemap"><Pair><key>normal</key><styleUrl>#cluster-9-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-9-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>9</name>
+		<snippet>Telang Cluster #9</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-26T04:59:00Z</begin><end>2011-10-26T04:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-9-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-26_4 to 2011-10-26_4</value></Data><Data name="Mean density"><value>10419.0</value></Data><Data name="Test statistic"><value>9588</value></Data><Data name="Mean (clust / neighb)"><value>1.70</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.97875,40.7601195,500 -73.9766175,40.755397,500 -73.9808825,40.758545,500 -73.974485,40.7569705,500 -73.983015,40.7569715,500 -73.9723525,40.758545,500 -73.9851475,40.755397,500 -73.974485,40.7601195,500 -73.983015,40.7538225,500 -73.97875,40.7538225,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.97875,40.756971,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 9 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.983015,40.755397,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-10-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-10-stylemap"><Pair><key>normal</key><styleUrl>#cluster-10-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-10-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>10</name>
+		<snippet>Telang Cluster #10</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-25T04:59:00Z</begin><end>2011-10-25T04:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-10-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-25_4 to 2011-10-25_4</value></Data><Data name="Mean density"><value>10135.1</value></Data><Data name="Test statistic"><value>9587</value></Data><Data name="Mean (clust / neighb)"><value>1.71</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.97875,40.7601195,500 -73.9766175,40.755397,500 -73.9808825,40.758545,500 -73.974485,40.7569705,500 -73.983015,40.7569715,500 -73.9723525,40.758545,500 -73.9851475,40.755397,500 -73.974485,40.7601195,500 -73.983015,40.7538225,500 -73.97875,40.7538225,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.97875,40.756971,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 10 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.983015,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.758545,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-11-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-11-stylemap"><Pair><key>normal</key><styleUrl>#cluster-11-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-11-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>11</name>
+		<snippet>Telang Cluster #11</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-12T04:59:00Z</begin><end>2011-10-12T05:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-11-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-12_4 to 2011-10-12_5</value></Data><Data name="Mean density"><value>9209.8</value></Data><Data name="Test statistic"><value>9387</value></Data><Data name="Mean (clust / neighb)"><value>1.57</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.974485,40.7632685,500 -73.9723525,40.758545,500 -73.97022,40.7569705,500 -73.97875,40.7632685,500 -73.9680875,40.758545,500 -73.9808825,40.761694,500 -73.97022,40.7601195,500 -73.97875,40.7601195,500 -73.974485,40.7601195,500 -73.9723525,40.761694,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.9740585,40.7604344,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 11 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.970220,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.761694,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.761694,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-12-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-12-stylemap"><Pair><key>normal</key><styleUrl>#cluster-12-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-12-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>12</name>
+		<snippet>Telang Cluster #12</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-12T04:59:00Z</begin><end>2011-10-12T04:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-12-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-12_4 to 2011-10-12_4</value></Data><Data name="Mean density"><value>10394.2</value></Data><Data name="Test statistic"><value>9134</value></Data><Data name="Mean (clust / neighb)"><value>1.67</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.97875,40.7601195,500 -73.9766175,40.755397,500 -73.9808825,40.758545,500 -73.974485,40.7569705,500 -73.983015,40.7569715,500 -73.9723525,40.758545,500 -73.9851475,40.755397,500 -73.974485,40.7601195,500 -73.983015,40.7538225,500 -73.97875,40.7538225,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.97875,40.756971,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 12 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.983015,40.755397,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-13-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-13-stylemap"><Pair><key>normal</key><styleUrl>#cluster-13-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-13-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>13</name>
+		<snippet>Telang Cluster #13</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-3T04:59:00Z</begin><end>2011-10-3T04:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-13-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-3_4 to 2011-10-3_4</value></Data><Data name="Mean density"><value>8489.3</value></Data><Data name="Test statistic"><value>9015</value></Data><Data name="Mean (clust / neighb)"><value>1.66</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.974485,40.7538225,500 -73.97875,40.7632685,500 -73.9723525,40.755397,500 -73.9808825,40.761694,500 -73.97875,40.7601195,500 -73.97022,40.7569705,500 -73.983015,40.7601195,500 -73.9680875,40.758545,500 -73.9851475,40.758545,500 -73.97022,40.7601195,500 -73.983015,40.7569705,500 -73.9723525,40.761694,500 -73.974485,40.7632685,500 -73.9766175,40.755397,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.9763128571,40.7589950714,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 13 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.983015,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.970220,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.761694,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.761694,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-14-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-14-stylemap"><Pair><key>normal</key><styleUrl>#cluster-14-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-14-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>14</name>
+		<snippet>Telang Cluster #14</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-14T04:59:00Z</begin><end>2011-10-14T05:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-14-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-14_4 to 2011-10-14_5</value></Data><Data name="Mean density"><value>8739.8</value></Data><Data name="Test statistic"><value>8774</value></Data><Data name="Mean (clust / neighb)"><value>1.56</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.974485,40.7632685,500 -73.9723525,40.758545,500 -73.97022,40.7569705,500 -73.97875,40.7632685,500 -73.9680875,40.758545,500 -73.9808825,40.761694,500 -73.97022,40.7601195,500 -73.97875,40.7601195,500 -73.974485,40.7601195,500 -73.9723525,40.761694,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.9740585,40.7604344,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 14 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.970220,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.761694,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.761694,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-15-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-15-stylemap"><Pair><key>normal</key><styleUrl>#cluster-15-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-15-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>15</name>
+		<snippet>Telang Cluster #15</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-4T04:59:00Z</begin><end>2011-10-4T04:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-15-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-4_4 to 2011-10-4_4</value></Data><Data name="Mean density"><value>9889.2</value></Data><Data name="Test statistic"><value>8746</value></Data><Data name="Mean (clust / neighb)"><value>1.68</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.97875,40.7601195,500 -73.9766175,40.755397,500 -73.9808825,40.758545,500 -73.974485,40.7569705,500 -73.983015,40.7569715,500 -73.9723525,40.758545,500 -73.9851475,40.755397,500 -73.974485,40.7601195,500 -73.983015,40.7538225,500 -73.97875,40.7538225,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.97875,40.756971,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 15 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.983015,40.755397,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-16-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-16-stylemap"><Pair><key>normal</key><styleUrl>#cluster-16-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-16-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>16</name>
+		<snippet>Telang Cluster #16</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-20T04:59:00Z</begin><end>2011-10-20T04:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-16-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-20_4 to 2011-10-20_4</value></Data><Data name="Mean density"><value>10048.5</value></Data><Data name="Test statistic"><value>8654</value></Data><Data name="Mean (clust / neighb)"><value>1.67</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.97875,40.7601195,500 -73.9766175,40.755397,500 -73.9808825,40.758545,500 -73.974485,40.7569705,500 -73.983015,40.7569715,500 -73.9723525,40.758545,500 -73.9851475,40.755397,500 -73.974485,40.7601195,500 -73.983015,40.7538225,500 -73.97875,40.7538225,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.97875,40.756971,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 16 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.983015,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.758545,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-17-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-17-stylemap"><Pair><key>normal</key><styleUrl>#cluster-17-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-17-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>17</name>
+		<snippet>Telang Cluster #17</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-21T04:59:00Z</begin><end>2011-10-21T04:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-17-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-21_4 to 2011-10-21_4</value></Data><Data name="Mean density"><value>9800.1</value></Data><Data name="Test statistic"><value>8560</value></Data><Data name="Mean (clust / neighb)"><value>1.67</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.97875,40.7601195,500 -73.9766175,40.755397,500 -73.9808825,40.758545,500 -73.974485,40.7569705,500 -73.983015,40.7569715,500 -73.9723525,40.758545,500 -73.9851475,40.755397,500 -73.974485,40.7601195,500 -73.983015,40.7538225,500 -73.97875,40.7538225,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.97875,40.756971,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 17 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.983015,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.758545,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-18-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-18-stylemap"><Pair><key>normal</key><styleUrl>#cluster-18-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-18-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>18</name>
+		<snippet>Telang Cluster #18</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-17T04:59:00Z</begin><end>2011-10-17T04:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-18-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-17_4 to 2011-10-17_4</value></Data><Data name="Mean density"><value>9434.6</value></Data><Data name="Test statistic"><value>8463</value></Data><Data name="Mean (clust / neighb)"><value>1.68</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.97875,40.7601195,500 -73.9766175,40.755397,500 -73.9808825,40.758545,500 -73.974485,40.7569705,500 -73.983015,40.7569715,500 -73.9723525,40.758545,500 -73.9851475,40.755397,500 -73.974485,40.7601195,500 -73.983015,40.7538225,500 -73.97875,40.7538225,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.97875,40.756971,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 18 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.983015,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.758545,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-19-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-19-stylemap"><Pair><key>normal</key><styleUrl>#cluster-19-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-19-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>19</name>
+		<snippet>Telang Cluster #19</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-14T04:59:00Z</begin><end>2011-10-14T04:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-19-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-14_4 to 2011-10-14_4</value></Data><Data name="Mean density"><value>9890.9</value></Data><Data name="Test statistic"><value>8459</value></Data><Data name="Mean (clust / neighb)"><value>1.66</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.97875,40.7601195,500 -73.9766175,40.755397,500 -73.9808825,40.758545,500 -73.974485,40.7569705,500 -73.983015,40.7569715,500 -73.9723525,40.758545,500 -73.9851475,40.755397,500 -73.974485,40.7601195,500 -73.983015,40.7538225,500 -73.97875,40.7538225,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.97875,40.756971,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 19 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.983015,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.758545,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-20-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-20-stylemap"><Pair><key>normal</key><styleUrl>#cluster-20-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-20-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>20</name>
+		<snippet>Telang Cluster #20</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-27T20:59:00Z</begin><end>2011-10-27T20:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-20-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-27_20 to 2011-10-27_20</value></Data><Data name="Mean density"><value>5014.1</value></Data><Data name="Test statistic"><value>8276</value></Data><Data name="Mean (clust / neighb)"><value>1.45</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.9936785,40.742803,500 -73.991546,40.7254865,500 -73.9894135,40.727061,500 -73.9894135,40.73021,500 -74.000076,40.7412295,500 -73.9894135,40.733358,500 -74.0022085,40.739655,500 -74.0022085,40.736506,500 -74.000076,40.7349315,500 -73.995811,40.7349325,500 -73.9894135,40.736506,500 -73.9979435,40.733358,500 -73.9851475,40.742803,500 -73.98728,40.7412285,500 -73.9894135,40.739655,500 -73.9979435,40.73021,500 -73.9851475,40.745952,500 -73.9979435,40.727061,500 -73.98728,40.7475265,500 -73.9979435,40.723913,500 -73.9894125,40.745952,500 -73.991546,40.7443775,500 -73.995811,40.7223385,500 -73.9936785,40.723913,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.993322875,40.7354569583,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 20 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-74.000076,40.736506,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.987280,40.745952,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.991546,40.742803,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.987280,40.742803,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.995811,40.733358,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.995811,40.730210,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.991546,40.739655,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.991546,40.727061,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.991546,40.736506,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.995811,40.727061,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-74.000076,40.739655,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.995811,40.723913,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.991546,40.730210,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.991546,40.733358,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-21-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-21-stylemap"><Pair><key>normal</key><styleUrl>#cluster-21-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-21-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>21</name>
+		<snippet>Telang Cluster #21</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-11T14:59:00Z</begin><end>2011-10-11T15:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-21-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-11_14 to 2011-10-11_15</value></Data><Data name="Mean density"><value>8920.8</value></Data><Data name="Test statistic"><value>8262</value></Data><Data name="Mean (clust / neighb)"><value>1.53</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.9766175,40.758545,500 -73.97875,40.7632685,500 -73.9808825,40.761694,500 -73.974485,40.7601195,500 -73.9723525,40.761694,500 -73.9808825,40.758545,500 -73.974485,40.7632685,500 -73.97875,40.7569705,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.977150625,40.760513125,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 21 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.761694,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.761694,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-22-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-22-stylemap"><Pair><key>normal</key><styleUrl>#cluster-22-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-22-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>22</name>
+		<snippet>Telang Cluster #22</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-19T15:59:00Z</begin><end>2011-10-19T16:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-22-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-19_15 to 2011-10-19_16</value></Data><Data name="Mean density"><value>6648.6</value></Data><Data name="Test statistic"><value>8179</value></Data><Data name="Mean (clust / neighb)"><value>1.46</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.991546,40.7380805,500 -73.9936785,40.745952,500 -73.9894135,40.739655,500 -73.995811,40.7412295,500 -73.98728,40.7412285,500 -73.9851475,40.742803,500 -73.9979435,40.739655,500 -73.9894125,40.742803,500 -73.98728,40.7443775,500 -73.9979435,40.736506,500 -73.995811,40.7349315,500 -73.9894135,40.745952,500 -73.9936785,40.736506,500 -73.991546,40.7475265,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.9918503571,40.741229,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 22 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.995811,40.739655,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.991546,40.745952,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.991546,40.739655,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.995811,40.736506,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.987280,40.742803,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-23-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-23-stylemap"><Pair><key>normal</key><styleUrl>#cluster-23-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-23-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>23</name>
+		<snippet>Telang Cluster #23</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-7T04:59:00Z</begin><end>2011-10-7T05:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-23-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-7_4 to 2011-10-7_5</value></Data><Data name="Mean density"><value>8273.6</value></Data><Data name="Test statistic"><value>8108</value></Data><Data name="Mean (clust / neighb)"><value>1.55</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.974485,40.7632685,500 -73.9723525,40.758545,500 -73.97022,40.7569705,500 -73.97875,40.7632685,500 -73.9680875,40.758545,500 -73.9808825,40.761694,500 -73.97022,40.7601195,500 -73.97875,40.7601195,500 -73.974485,40.7601195,500 -73.9723525,40.761694,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.9740585,40.7604344,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 23 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.970220,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.761694,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.761694,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-24-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-24-stylemap"><Pair><key>normal</key><styleUrl>#cluster-24-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-24-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>24</name>
+		<snippet>Telang Cluster #24</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-18T04:59:00Z</begin><end>2011-10-18T05:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-24-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-18_4 to 2011-10-18_5</value></Data><Data name="Mean density"><value>8128.2</value></Data><Data name="Test statistic"><value>8105</value></Data><Data name="Mean (clust / neighb)"><value>1.56</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.9851475,40.7491,500 -73.98728,40.7569715,500 -73.983015,40.7475255,500 -73.9894125,40.755397,500 -73.9808825,40.7491,500 -73.983015,40.7506745,500 -73.9894125,40.752248,500 -73.9851475,40.752248,500 -73.98728,40.7506735,500 -73.9851475,40.755397,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.985574,40.7519335,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 24 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.987280,40.752248,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.987280,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.983015,40.749100,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-25-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-25-stylemap"><Pair><key>normal</key><styleUrl>#cluster-25-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-25-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>25</name>
+		<snippet>Telang Cluster #25</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-29T15:59:00Z</begin><end>2011-10-29T15:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-25-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-29_15 to 2011-10-29_15</value></Data><Data name="Mean density"><value>9010.5</value></Data><Data name="Test statistic"><value>8040</value></Data><Data name="Mean (clust / neighb)"><value>1.68</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.9766175,40.758545,500 -73.97875,40.7664165,500 -73.974485,40.7569705,500 -73.9723525,40.758545,500 -73.983015,40.7664165,500 -73.9766175,40.761694,500 -73.97875,40.7632675,500 -73.9851475,40.764842,500 -73.983015,40.7632675,500 -73.9723525,40.761694,500 -73.974485,40.7632685,500 -73.9766175,40.764842,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.97768375,40.76248075,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 25 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.983015,40.764842,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.764842,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.761694,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-26-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-26-stylemap"><Pair><key>normal</key><styleUrl>#cluster-26-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-26-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>26</name>
+		<snippet>Telang Cluster #26</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-19T15:59:00Z</begin><end>2011-10-19T16:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-26-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-19_15 to 2011-10-19_16</value></Data><Data name="Mean density"><value>6364.4</value></Data><Data name="Test statistic"><value>7592</value></Data><Data name="Mean (clust / neighb)"><value>1.45</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.991546,40.7349315,500 -73.9936785,40.745952,500 -73.9894135,40.736506,500 -73.995811,40.7475265,500 -73.9979435,40.745952,500 -73.98728,40.7380805,500 -73.9894125,40.739655,500 -73.9979435,40.742803,500 -73.9851475,40.739655,500 -73.98728,40.7412295,500 -73.995811,40.7412285,500 -73.9894135,40.742803,500 -73.9936785,40.736506,500 -73.991546,40.7443775,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.9918503571,40.741229,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 26 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.991546,40.736506,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.995811,40.745952,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.987280,40.739655,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.991546,40.742803,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.995811,40.742803,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-27-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-27-stylemap"><Pair><key>normal</key><styleUrl>#cluster-27-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-27-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>27</name>
+		<snippet>Telang Cluster #27</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-13T03:59:00Z</begin><end>2011-10-13T03:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-27-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-13_3 to 2011-10-13_3</value></Data><Data name="Mean density"><value>9087.7</value></Data><Data name="Test statistic"><value>7535</value></Data><Data name="Mean (clust / neighb)"><value>1.79</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.97875,40.7569705,500 -73.9808825,40.758545,500 -73.974485,40.7569705,500 -73.983015,40.7569715,500 -73.9723525,40.758545,500 -73.9851475,40.755397,500 -73.974485,40.7601195,500 -73.983015,40.7538225,500 -73.9808825,40.755397,500 -73.97875,40.7601195,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.9791765,40.7572858,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 27 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.983015,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.758545,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-28-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-28-stylemap"><Pair><key>normal</key><styleUrl>#cluster-28-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-28-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>28</name>
+		<snippet>Telang Cluster #28</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-20T15:59:00Z</begin><end>2011-10-20T16:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-28-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-20_15 to 2011-10-20_16</value></Data><Data name="Mean density"><value>7111.0</value></Data><Data name="Test statistic"><value>7485</value></Data><Data name="Mean (clust / neighb)"><value>1.38</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.991546,40.7475265,500 -73.9894135,40.736506,500 -73.9894125,40.739655,500 -73.995811,40.7475265,500 -73.98728,40.7380805,500 -73.9979435,40.745952,500 -73.995811,40.7443775,500 -73.9851475,40.739655,500 -73.9936785,40.742803,500 -73.9851475,40.742803,500 -73.98728,40.7443775,500 -73.9936785,40.736506,500 -73.9894135,40.745952,500 -73.991546,40.7349315,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.9909363571,40.7419037143,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 28 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.991546,40.742803,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.987280,40.742803,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.991546,40.745952,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.987280,40.739655,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.991546,40.736506,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.995811,40.745952,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-29-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-29-stylemap"><Pair><key>normal</key><styleUrl>#cluster-29-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-29-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>29</name>
+		<snippet>Telang Cluster #29</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-25T03:59:00Z</begin><end>2011-10-25T03:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-29-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-25_3 to 2011-10-25_3</value></Data><Data name="Mean density"><value>8805.4</value></Data><Data name="Test statistic"><value>7483</value></Data><Data name="Mean (clust / neighb)"><value>1.80</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.97875,40.7569705,500 -73.9808825,40.758545,500 -73.974485,40.7569705,500 -73.983015,40.7569715,500 -73.9723525,40.758545,500 -73.9851475,40.755397,500 -73.974485,40.7601195,500 -73.983015,40.7538225,500 -73.9808825,40.755397,500 -73.97875,40.7601195,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.9791765,40.7572858,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 29 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.983015,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.758545,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-30-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-30-stylemap"><Pair><key>normal</key><styleUrl>#cluster-30-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-30-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>30</name>
+		<snippet>Telang Cluster #30</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-14T07:59:00Z</begin><end>2011-10-14T10:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-30-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-14_7 to 2011-10-14_10</value></Data><Data name="Mean density"><value>1929.3</value></Data><Data name="Test statistic"><value>7450</value></Data><Data name="Mean (clust / neighb)"><value>0.53</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-74.004341,40.7475255,500 -74.0022085,40.7491,500 -74.0064735,40.752248,500 -74.0022085,40.752248,500 -74.0064735,40.7491,500 -74.004341,40.7538225,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-74.004341,40.750674,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 30 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-74.004341,40.749100,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-74.004341,40.752248,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-31-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-31-stylemap"><Pair><key>normal</key><styleUrl>#cluster-31-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-31-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>31</name>
+		<snippet>Telang Cluster #31</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-6T09:59:00Z</begin><end>2011-10-6T10:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-31-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-6_9 to 2011-10-6_10</value></Data><Data name="Mean density"><value>8002.0</value></Data><Data name="Test statistic"><value>7326</value></Data><Data name="Mean (clust / neighb)"><value>1.44</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.97875,40.7569715,500 -73.9766175,40.755397,500 -73.974485,40.7569705,500 -73.9723525,40.758545,500 -73.9808825,40.755397,500 -73.983015,40.7538225,500 -73.9851475,40.752248,500 -73.9723525,40.761694,500 -73.983015,40.7506735,500 -73.9766175,40.758545,500 -73.9808825,40.752248,500 -73.974485,40.7632685,500 -73.9766175,40.761694,500 -73.97875,40.7538225,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.9781407143,40.7565212143,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 31 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.983015,40.752248,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.761694,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-32-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-32-stylemap"><Pair><key>normal</key><styleUrl>#cluster-32-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-32-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>32</name>
+		<snippet>Telang Cluster #32</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-27T04:59:00Z</begin><end>2011-10-27T04:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-32-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-27_4 to 2011-10-27_4</value></Data><Data name="Mean density"><value>11196.3</value></Data><Data name="Test statistic"><value>7314</value></Data><Data name="Mean (clust / neighb)"><value>1.67</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.9766175,40.755397,500 -73.97875,40.7601195,500 -73.9808825,40.758545,500 -73.974485,40.7569705,500 -73.9723525,40.758545,500 -73.9808825,40.755397,500 -73.974485,40.7601195,500 -73.97875,40.7538225,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.977150625,40.7573645,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 32 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.758545,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-33-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-33-stylemap"><Pair><key>normal</key><styleUrl>#cluster-33-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-33-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>33</name>
+		<snippet>Telang Cluster #33</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-9T14:59:00Z</begin><end>2011-10-9T15:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-33-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-9_14 to 2011-10-9_15</value></Data><Data name="Mean density"><value>5632.6</value></Data><Data name="Test statistic"><value>7294</value></Data><Data name="Mean (clust / neighb)"><value>1.39</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.97875,40.7538225,500 -73.983015,40.7601195,500 -73.9766175,40.755397,500 -73.9851475,40.758545,500 -73.974485,40.7569705,500 -73.98728,40.7569715,500 -73.9723525,40.758545,500 -73.983015,40.7569705,500 -73.9894125,40.755397,500 -73.9723525,40.761694,500 -73.9894125,40.752248,500 -73.974485,40.7632685,500 -73.98728,40.7506735,500 -73.9851475,40.752248,500 -73.97875,40.7632685,500 -73.9808825,40.761694,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.9811490625,40.7573645625,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 33 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.983015,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.987280,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.987280,40.752248,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.761694,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.761694,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-34-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-34-stylemap"><Pair><key>normal</key><styleUrl>#cluster-34-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-34-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>34</name>
+		<snippet>Telang Cluster #34</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-18T14:59:00Z</begin><end>2011-10-18T15:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-34-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-18_14 to 2011-10-18_15</value></Data><Data name="Mean density"><value>8749.9</value></Data><Data name="Test statistic"><value>7263</value></Data><Data name="Mean (clust / neighb)"><value>1.50</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.9766175,40.758545,500 -73.97875,40.7632685,500 -73.9808825,40.761694,500 -73.974485,40.7601195,500 -73.9723525,40.761694,500 -73.9808825,40.758545,500 -73.974485,40.7632685,500 -73.97875,40.7569705,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.977150625,40.760513125,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 34 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.761694,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.761694,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-35-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-35-stylemap"><Pair><key>normal</key><styleUrl>#cluster-35-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-35-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>35</name>
+		<snippet>Telang Cluster #35</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-20T20:59:00Z</begin><end>2011-10-20T20:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-35-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-20_20 to 2011-10-20_20</value></Data><Data name="Mean density"><value>5311.4</value></Data><Data name="Test statistic"><value>7259</value></Data><Data name="Mean (clust / neighb)"><value>1.49</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.995811,40.7223385,500 -73.9979435,40.742803,500 -73.9979435,40.739655,500 -73.9936785,40.727061,500 -73.991546,40.7223385,500 -74.000076,40.7412295,500 -73.9979435,40.736506,500 -73.9894135,40.723913,500 -74.0022085,40.739655,500 -74.0022085,40.736506,500 -73.9894135,40.73021,500 -74.000076,40.7349315,500 -73.9979435,40.733358,500 -73.9894135,40.733358,500 -73.991546,40.7349325,500 -73.9979435,40.73021,500 -73.9979435,40.727061,500 -73.9936785,40.742803,500 -73.9979435,40.723913,500 -73.995811,40.7443775,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.99602425,40.733358,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 35 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.995811,40.742803,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.995811,40.733358,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.995811,40.730210,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.991546,40.723913,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-74.000076,40.736506,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.995811,40.727061,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-74.000076,40.739655,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.995811,40.723913,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.991546,40.730210,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.991546,40.733358,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-36-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-36-stylemap"><Pair><key>normal</key><styleUrl>#cluster-36-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-36-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>36</name>
+		<snippet>Telang Cluster #36</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-18T03:59:00Z</begin><end>2011-10-18T03:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-36-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-18_3 to 2011-10-18_3</value></Data><Data name="Mean density"><value>8851.6</value></Data><Data name="Test statistic"><value>7188</value></Data><Data name="Mean (clust / neighb)"><value>1.78</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.97875,40.7569705,500 -73.9808825,40.758545,500 -73.974485,40.7569705,500 -73.983015,40.7569715,500 -73.9723525,40.758545,500 -73.9851475,40.755397,500 -73.974485,40.7601195,500 -73.983015,40.7538225,500 -73.9808825,40.755397,500 -73.97875,40.7601195,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.9791765,40.7572858,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 36 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.983015,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.758545,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-37-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-37-stylemap"><Pair><key>normal</key><styleUrl>#cluster-37-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-37-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>37</name>
+		<snippet>Telang Cluster #37</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-24T14:59:00Z</begin><end>2011-10-24T15:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-37-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-24_14 to 2011-10-24_15</value></Data><Data name="Mean density"><value>8724.4</value></Data><Data name="Test statistic"><value>7141</value></Data><Data name="Mean (clust / neighb)"><value>1.49</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.974485,40.7569705,500 -73.97875,40.7632685,500 -73.9723525,40.758545,500 -73.9808825,40.761694,500 -73.97875,40.7601195,500 -73.9723525,40.761694,500 -73.974485,40.7632685,500 -73.9766175,40.758545,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.976084375,40.760513125,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 37 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.761694,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.761694,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-38-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-38-stylemap"><Pair><key>normal</key><styleUrl>#cluster-38-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-38-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>38</name>
+		<snippet>Telang Cluster #38</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-6T03:59:00Z</begin><end>2011-10-6T03:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-38-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-6_3 to 2011-10-6_3</value></Data><Data name="Mean density"><value>8954.2</value></Data><Data name="Test statistic"><value>7077</value></Data><Data name="Mean (clust / neighb)"><value>1.76</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.9766175,40.755397,500 -73.983015,40.7601195,500 -73.9851475,40.758545,500 -73.974485,40.7569705,500 -73.983015,40.7569705,500 -73.9723525,40.758545,500 -73.974485,40.7601195,500 -73.9808825,40.755397,500 -73.97875,40.7569715,500 -73.97875,40.7538225,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.97875,40.7572858,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 38 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.983015,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.758545,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-39-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-39-stylemap"><Pair><key>normal</key><styleUrl>#cluster-39-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-39-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>39</name>
+		<snippet>Telang Cluster #39</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-26T03:59:00Z</begin><end>2011-10-26T03:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-39-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-26_3 to 2011-10-26_3</value></Data><Data name="Mean density"><value>8906.1</value></Data><Data name="Test statistic"><value>7071</value></Data><Data name="Mean (clust / neighb)"><value>1.77</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.97875,40.7569705,500 -73.9808825,40.758545,500 -73.974485,40.7569705,500 -73.983015,40.7569715,500 -73.9723525,40.758545,500 -73.9851475,40.755397,500 -73.974485,40.7601195,500 -73.983015,40.7538225,500 -73.9808825,40.755397,500 -73.97875,40.7601195,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.9791765,40.7572858,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 39 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.983015,40.755397,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-40-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-40-stylemap"><Pair><key>normal</key><styleUrl>#cluster-40-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-40-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>40</name>
+		<snippet>Telang Cluster #40</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011-10-31T04:59:00Z</begin><end>2011-10-31T04:23:00Z</end></TimeSpan>
+		<styleUrl>#cluster-40-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-31_4 to 2011-10-31_4</value></Data><Data name="Mean density"><value>8706.0</value></Data><Data name="Test statistic"><value>6975</value></Data><Data name="Mean (clust / neighb)"><value>1.63</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.97875,40.7601195,500 -73.9766175,40.755397,500 -73.9808825,40.758545,500 -73.974485,40.7569705,500 -73.983015,40.7569715,500 -73.9723525,40.758545,500 -73.9851475,40.755397,500 -73.974485,40.7601195,500 -73.983015,40.7538225,500 -73.97875,40.7538225,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.97875,40.756971,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 40 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.755397,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.978750,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.974485,40.758545,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.983015,40.755397,0</coordinates></Point></Placemark>
+	</Folder>
+
+</Document>
+</kml>
