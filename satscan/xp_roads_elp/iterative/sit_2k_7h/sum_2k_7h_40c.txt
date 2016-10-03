@@ -1,0 +1,8 @@
+Iterative SaTScan anomaly result file for 2k_7h
+Number of clusters reported: 40
+Space size Mean: 13.525
+Timespan Mean: 6.5
+Test statistic Mean: 1970.50102227
+High counts anomaly / Total anomalies: 1.0
+
+

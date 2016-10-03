@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+
+	<Style id="high-rate-placemark"><IconStyle><Icon><href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href><scale>0.25</scale></Icon></IconStyle></Style>
+	<Style id="low-rate-placemark"><IconStyle><Icon><href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href><scale>0.25</scale></Icon></IconStyle></Style>
+
+	<name>sit_2k_none</name>
+ 
+	<Style id="cluster-1-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Number of cases</th><td style="white-space:nowrap;">$[Number of cases]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Observed / expected</th><td style="white-space:nowrap;">$[Observed / expected]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-1-stylemap"><Pair><key>normal</key><styleUrl>#cluster-1-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-1-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>1</name>
+		<snippet>SaTScan Cluster #1</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011T10:00:00Z</begin><end>2011T10:00:00Z</end></TimeSpan>
+		<styleUrl>#cluster-1-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-13_9 to 2011-10-16_15
+</value></Data><Data name="Number of cases"><value>10848</value></Data><Data name="Test statistic"><value>3749.383690</value></Data><Data name="Observed / expected"><value>2.62</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-74.00054,40.757915,500 -74.000885,40.75825,500 -74.000155,40.75702,500 -73.999735,40.7576,500 -74.001345,40.7576,500 -74.001765,40.75702,500 -73.999275,40.75825,500 -74.00008,40.757935,500 -74.00096,40.757335,500 -74.002225,40.75642,500 -73.998825,40.75887,500 -74.002735,40.75574,500 -73.998375,40.75948,500 -74.00142,40.756735,500 -73.99963,40.758555,500 -74.00193,40.756055,500 -73.99918,40.759165,500 -74.00193,40.755425,500 -73.99918,40.759795,500 -74.00142,40.756105,500 -73.99963,40.759185,500 -74.00008,40.758565,500 -74.00096,40.756705,500 -74.001125,40.75574,500 -73.999985,40.75948,500 -74.000435,40.75887,500 -74.000615,40.75642,500 -74.00054,40.757285,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.9857,40.7331,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 1 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-74.00054,40.7576,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-74.00096,40.75702,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-74.00008,40.75825,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-74.00142,40.75642,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.99963,40.75887,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-74.00193,40.75574,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.99918,40.75948,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-2-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Number of cases</th><td style="white-space:nowrap;">$[Number of cases]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Observed / expected</th><td style="white-space:nowrap;">$[Observed / expected]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-2-stylemap"><Pair><key>normal</key><styleUrl>#cluster-2-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-2-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>2</name>
+		<snippet>SaTScan Cluster #2</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011T10:00:00Z</begin><end>2011T10:00:00Z</end></TimeSpan>
+		<styleUrl>#cluster-2-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-28_17 to 2011-10-31_5
+</value></Data><Data name="Number of cases"><value>7394</value></Data><Data name="Test statistic"><value>3230.176289</value></Data><Data name="Observed / expected"><value>0.45</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.97155,40.759935,500 -73.971425,40.75971,500 -73.97177,40.760655,500 -73.971905,40.76087,500 -73.971205,40.75962,500 -73.972115,40.76096,500 -73.970745,40.76025,500 -73.972575,40.76034,500 -73.970965,40.76034,500 -73.972355,40.76025,500 -73.970295,40.76087,500 -73.973035,40.75971,500 -73.9711,40.760555,500 -73.97223,40.760025,500 -73.970505,40.76096,500 -73.972815,40.75962,500 -73.973485,40.75909,500 -73.969795,40.76155,500 -73.973945,40.75846,500 -73.973275,40.75899,500 -73.970015,40.76164,500 -73.969295,40.76223,500 -73.97268,40.759405,500 -73.9706,40.761235,500 -73.973725,40.75837,500 -73.969515,40.76232,500 -73.97131,40.760645,500 -73.97314,40.758775,500 -73.9701,40.761915,500 -73.97201,40.759935,500 -73.97247,40.759305,500 -73.97082,40.761325,500 -73.97032,40.762005,500 -73.97292,40.758685,500 -73.9701,40.762545,500 -73.97314,40.758145,500 -73.9706,40.761865,500 -73.97268,40.758775,500 -73.97223,40.759395,500 -73.9711,40.761185,500 -73.97032,40.762635,500 -73.97292,40.758055,500 -73.97247,40.758675,500 -73.97082,40.761955,500 -73.97177,40.760025,500 -73.970905,40.76223,500 -73.97155,40.760565,500 -73.972335,40.75846,500 -73.97201,40.759305,500 -73.97131,40.761275,500 -73.971125,40.76232,500 -73.972115,40.75837,500 -73.971405,40.76155,500 -73.971875,40.75909,500 -73.971665,40.75899,500 -73.971625,40.76164,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.9857,40.7331,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 2 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97177,40.76034,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97131,40.76096,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97223,40.75971,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97155,40.76025,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.9711,40.76087,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97201,40.75962,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97268,40.75909,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97082,40.76164,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.9706,40.76155,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97247,40.75899,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97314,40.75846,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97032,40.76232,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.9701,40.76223,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97292,40.75837,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-3-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Number of cases</th><td style="white-space:nowrap;">$[Number of cases]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Observed / expected</th><td style="white-space:nowrap;">$[Observed / expected]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-3-stylemap"><Pair><key>normal</key><styleUrl>#cluster-3-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-3-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>3</name>
+		<snippet>SaTScan Cluster #3</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011T10:00:00Z</begin><end>2011T10:00:00Z</end></TimeSpan>
+		<styleUrl>#cluster-3-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-22_23 to 2011-10-23_5
+</value></Data><Data name="Number of cases"><value>4939</value></Data><Data name="Test statistic"><value>3155.254542</value></Data><Data name="Observed / expected"><value>4.01</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.988265,40.71822,500 -73.98825,40.718145,500 -73.98817,40.718275,500 -73.988185,40.71835,500 -73.987775,40.71785,500 -73.98755,40.717715,500 -73.98899,40.719155,500 -73.987515,40.71778,500 -73.988925,40.71907,500 -73.987455,40.71787,500 -73.98697,40.717535,500 -73.98746,40.717905,500 -73.98905,40.719015,500 -73.98671,40.717465,500 -73.989445,40.71922,500 -73.98973,40.719385,500 -73.987005,40.71769,500 -73.989005,40.71893,500 -73.986685,40.7175,500 -73.989675,40.7193,500 -73.98665,40.717555,500 -73.98588,40.717185,500 -73.99025,40.719535,500 -73.9862,40.717375,500 -73.99048,40.719615,500 -73.98981,40.719245,500 -73.989505,40.71909,500 -73.98738,40.718035,500 -73.990445,40.71953,500 -73.989745,40.71917,500 -73.99125,40.719845,500 -73.99031,40.719405,500 -73.99055,40.719485,500 -73.987355,40.71809,500 -73.98655,40.717775,500 -73.98572,40.717515,500 -73.986525,40.71783,500 -73.985075,40.7175,500 -73.986165,40.71785,500 -73.985905,40.71778,500 -73.986745,40.71803,500 -73.992055,40.71953,500 -73.98588,40.717815,500 -73.985395,40.71769,500 -73.991285,40.7193,500 -73.991055,40.71922,500 -73.990535,40.71907,500 -73.985845,40.71787,500 -73.99125,40.719215,500 -73.98671,40.718095,500 -73.98697,40.718165,500 -73.989795,40.71884,500 -73.99048,40.718985,500 -73.9862,40.718005,500 -73.991355,40.71917,500 -73.99025,40.718905,500 -73.991115,40.71909,500 -73.984915,40.71783,500 -73.990615,40.71893,500 -73.98973,40.718755,500 -73.98755,40.718345,500 -73.98665,40.718185,500 -73.99055,40.718855,500 -73.986655,40.71822,500 -73.988975,40.71859,500 -73.985745,40.71809,500 -73.99031,40.718775,500 -73.989855,40.7187,500 -73.98572,40.718145,500 -73.98981,40.718615,500 -73.986575,40.71835,500 -73.98899,40.718525,500 -73.98655,40.718405,500 -73.987445,40.71846,500 -73.989055,40.71846,500 -73.98746,40.718535,500 -73.987365,40.71859,500 -73.98905,40.718385,500 -73.98738,40.718665,500 -73.988185,40.71884,500 -73.98817,40.718905,500 -73.988245,40.7187,500 -73.988355,40.71803,500 -73.98825,40.718775,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.9857,40.7331,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 3 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98825,40.71846,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98746,40.71822,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98905,40.7187,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98817,40.71859,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98899,40.71884,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98738,40.71835,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98755,40.71803,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98981,40.71893,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98665,40.71787,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98973,40.71907,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98697,40.71785,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98671,40.71778,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98655,40.71809,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.99031,40.71909,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.99025,40.71922,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.9862,40.71769,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.99055,40.71917,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.99048,40.7193,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98588,40.7175,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98572,40.71783,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.99125,40.71953,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-4-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Number of cases</th><td style="white-space:nowrap;">$[Number of cases]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Observed / expected</th><td style="white-space:nowrap;">$[Observed / expected]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-4-stylemap"><Pair><key>normal</key><styleUrl>#cluster-4-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-4-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>4</name>
+		<snippet>SaTScan Cluster #4</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011T10:00:00Z</begin><end>2011T10:00:00Z</end></TimeSpan>
+		<styleUrl>#cluster-4-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-15_23 to 2011-10-16_6
+</value></Data><Data name="Number of cases"><value>4869</value></Data><Data name="Test statistic"><value>2990.513269</value></Data><Data name="Observed / expected"><value>3.88</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.988265,40.71822,500 -73.98825,40.718145,500 -73.98817,40.718275,500 -73.988185,40.71835,500 -73.987775,40.71785,500 -73.98755,40.717715,500 -73.98899,40.719155,500 -73.987515,40.71778,500 -73.988925,40.71907,500 -73.987455,40.71787,500 -73.98697,40.717535,500 -73.98746,40.717905,500 -73.98905,40.719015,500 -73.98671,40.717465,500 -73.989445,40.71922,500 -73.98973,40.719385,500 -73.987005,40.71769,500 -73.989005,40.71893,500 -73.986685,40.7175,500 -73.989675,40.7193,500 -73.98665,40.717555,500 -73.98588,40.717185,500 -73.99025,40.719535,500 -73.9862,40.717375,500 -73.99048,40.719615,500 -73.98981,40.719245,500 -73.989505,40.71909,500 -73.98738,40.718035,500 -73.990445,40.71953,500 -73.989745,40.71917,500 -73.99125,40.719845,500 -73.99031,40.719405,500 -73.99055,40.719485,500 -73.987355,40.71809,500 -73.98655,40.717775,500 -73.98572,40.717515,500 -73.986525,40.71783,500 -73.985075,40.7175,500 -73.986165,40.71785,500 -73.985905,40.71778,500 -73.986745,40.71803,500 -73.992055,40.71953,500 -73.98588,40.717815,500 -73.985395,40.71769,500 -73.991285,40.7193,500 -73.991055,40.71922,500 -73.990535,40.71907,500 -73.985845,40.71787,500 -73.99125,40.719215,500 -73.98671,40.718095,500 -73.98697,40.718165,500 -73.989795,40.71884,500 -73.99048,40.718985,500 -73.9862,40.718005,500 -73.991355,40.71917,500 -73.99025,40.718905,500 -73.991115,40.71909,500 -73.984915,40.71783,500 -73.990615,40.71893,500 -73.98973,40.718755,500 -73.98755,40.718345,500 -73.98665,40.718185,500 -73.99055,40.718855,500 -73.986655,40.71822,500 -73.988975,40.71859,500 -73.985745,40.71809,500 -73.99031,40.718775,500 -73.989855,40.7187,500 -73.98572,40.718145,500 -73.98981,40.718615,500 -73.986575,40.71835,500 -73.98899,40.718525,500 -73.98655,40.718405,500 -73.987445,40.71846,500 -73.989055,40.71846,500 -73.98746,40.718535,500 -73.987365,40.71859,500 -73.98905,40.718385,500 -73.98738,40.718665,500 -73.988185,40.71884,500 -73.98817,40.718905,500 -73.988245,40.7187,500 -73.988355,40.71803,500 -73.98825,40.718775,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.9857,40.7331,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 4 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98825,40.71846,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98746,40.71822,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98905,40.7187,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98817,40.71859,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98899,40.71884,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98738,40.71835,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98755,40.71803,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98981,40.71893,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98665,40.71787,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98973,40.71907,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98697,40.71785,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98671,40.71778,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98655,40.71809,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.99031,40.71909,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.99025,40.71922,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.9862,40.71769,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.99055,40.71917,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.99048,40.7193,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98588,40.7175,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98572,40.71783,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.99125,40.71953,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-5-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Number of cases</th><td style="white-space:nowrap;">$[Number of cases]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Observed / expected</th><td style="white-space:nowrap;">$[Observed / expected]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-5-stylemap"><Pair><key>normal</key><styleUrl>#cluster-5-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-5-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>5</name>
+		<snippet>SaTScan Cluster #5</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011T10:00:00Z</begin><end>2011T10:00:00Z</end></TimeSpan>
+		<styleUrl>#cluster-5-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-9_0 to 2011-10-9_6
+</value></Data><Data name="Number of cases"><value>4179</value></Data><Data name="Test statistic"><value>3021.849208</value></Data><Data name="Observed / expected"><value>4.48</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.988265,40.71822,500 -73.98825,40.718145,500 -73.98817,40.718275,500 -73.988185,40.71835,500 -73.987775,40.71785,500 -73.98755,40.717715,500 -73.98899,40.719155,500 -73.987515,40.71778,500 -73.988925,40.71907,500 -73.987455,40.71787,500 -73.98697,40.717535,500 -73.98746,40.717905,500 -73.98905,40.719015,500 -73.98671,40.717465,500 -73.989445,40.71922,500 -73.98973,40.719385,500 -73.987005,40.71769,500 -73.989005,40.71893,500 -73.986685,40.7175,500 -73.989675,40.7193,500 -73.98665,40.717555,500 -73.98588,40.717185,500 -73.99025,40.719535,500 -73.9862,40.717375,500 -73.99048,40.719615,500 -73.98981,40.719245,500 -73.989505,40.71909,500 -73.98738,40.718035,500 -73.990445,40.71953,500 -73.989745,40.71917,500 -73.99125,40.719845,500 -73.99031,40.719405,500 -73.99055,40.719485,500 -73.987355,40.71809,500 -73.98655,40.717775,500 -73.98572,40.717515,500 -73.986525,40.71783,500 -73.985075,40.7175,500 -73.986165,40.71785,500 -73.985905,40.71778,500 -73.986745,40.71803,500 -73.992055,40.71953,500 -73.98588,40.717815,500 -73.985395,40.71769,500 -73.991285,40.7193,500 -73.991055,40.71922,500 -73.990535,40.71907,500 -73.985845,40.71787,500 -73.99125,40.719215,500 -73.98671,40.718095,500 -73.98697,40.718165,500 -73.989795,40.71884,500 -73.99048,40.718985,500 -73.9862,40.718005,500 -73.991355,40.71917,500 -73.99025,40.718905,500 -73.991115,40.71909,500 -73.984915,40.71783,500 -73.990615,40.71893,500 -73.98973,40.718755,500 -73.98755,40.718345,500 -73.98665,40.718185,500 -73.99055,40.718855,500 -73.986655,40.71822,500 -73.988975,40.71859,500 -73.985745,40.71809,500 -73.99031,40.718775,500 -73.989855,40.7187,500 -73.98572,40.718145,500 -73.98981,40.718615,500 -73.986575,40.71835,500 -73.98899,40.718525,500 -73.98655,40.718405,500 -73.987445,40.71846,500 -73.989055,40.71846,500 -73.98746,40.718535,500 -73.987365,40.71859,500 -73.98905,40.718385,500 -73.98738,40.718665,500 -73.988185,40.71884,500 -73.98817,40.718905,500 -73.988245,40.7187,500 -73.988355,40.71803,500 -73.98825,40.718775,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.9857,40.7331,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 5 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98825,40.71846,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98746,40.71822,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98905,40.7187,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98817,40.71859,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98899,40.71884,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98738,40.71835,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98755,40.71803,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98981,40.71893,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98665,40.71787,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98973,40.71907,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98697,40.71785,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98671,40.71778,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98655,40.71809,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.99031,40.71909,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.99025,40.71922,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.9862,40.71769,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.99055,40.71917,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.99048,40.7193,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98588,40.7175,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98572,40.71783,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.99125,40.71953,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-6-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Number of cases</th><td style="white-space:nowrap;">$[Number of cases]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Observed / expected</th><td style="white-space:nowrap;">$[Observed / expected]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-6-stylemap"><Pair><key>normal</key><styleUrl>#cluster-6-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-6-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>6</name>
+		<snippet>SaTScan Cluster #6</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011T10:00:00Z</begin><end>2011T10:00:00Z</end></TimeSpan>
+		<styleUrl>#cluster-6-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-14_17 to 2011-10-17_5
+</value></Data><Data name="Number of cases"><value>7530</value></Data><Data name="Test statistic"><value>2925.684854</value></Data><Data name="Observed / expected"><value>0.46</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.972115,40.76096,500 -73.97201,40.759305,500 -73.97223,40.760025,500 -73.971875,40.75909,500 -73.972355,40.76025,500 -73.971665,40.75899,500 -73.972575,40.76034,500 -73.971205,40.75962,500 -73.973035,40.75971,500 -73.971425,40.75971,500 -73.972815,40.75962,500 -73.970745,40.76025,500 -73.973485,40.75909,500 -73.97155,40.759935,500 -73.97268,40.759405,500 -73.970965,40.76034,500 -73.973275,40.75899,500 -73.970295,40.76087,500 -73.973945,40.75846,500 -73.970505,40.76096,500 -73.974395,40.75783,500 -73.973725,40.75837,500 -73.969795,40.76155,500 -73.9711,40.760555,500 -73.97314,40.758775,500 -73.974185,40.75774,500 -73.970015,40.76164,500 -73.97247,40.759305,500 -73.97177,40.760025,500 -73.9706,40.761235,500 -73.97359,40.758145,500 -73.97131,40.760645,500 -73.97292,40.758685,500 -73.97338,40.758055,500 -73.97082,40.761325,500 -73.9706,40.761865,500 -73.97359,40.757515,500 -73.97314,40.758145,500 -73.9711,40.761185,500 -73.97268,40.758775,500 -73.97155,40.760565,500 -73.97082,40.761955,500 -73.97338,40.757425,500 -73.97131,40.761275,500 -73.97292,40.758055,500 -73.97223,40.759395,500 -73.97201,40.759935,500 -73.971405,40.76155,500 -73.972785,40.75783,500 -73.97247,40.758675,500 -73.97177,40.760655,500 -73.971625,40.76164,500 -73.972575,40.75774,500 -73.972335,40.75846,500 -73.971905,40.76087,500 -73.972115,40.75837,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.9857,40.7331,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 6 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97223,40.75971,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97268,40.75909,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97177,40.76034,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97201,40.75962,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97155,40.76025,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97247,40.75899,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97314,40.75846,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97131,40.76096,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.9711,40.76087,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97292,40.75837,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97359,40.75783,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97082,40.76164,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.9706,40.76155,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97338,40.75774,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-7-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Number of cases</th><td style="white-space:nowrap;">$[Number of cases]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Observed / expected</th><td style="white-space:nowrap;">$[Observed / expected]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-7-stylemap"><Pair><key>normal</key><styleUrl>#cluster-7-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-7-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>7</name>
+		<snippet>SaTScan Cluster #7</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011T10:00:00Z</begin><end>2011T10:00:00Z</end></TimeSpan>
+		<styleUrl>#cluster-7-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-21_19 to 2011-10-24_5
+</value></Data><Data name="Number of cases"><value>7047</value></Data><Data name="Test statistic"><value>3320.852046</value></Data><Data name="Observed / expected"><value>0.43</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.972115,40.76096,500 -73.97201,40.759305,500 -73.97223,40.760025,500 -73.971875,40.75909,500 -73.972355,40.76025,500 -73.971665,40.75899,500 -73.972575,40.76034,500 -73.971205,40.75962,500 -73.973035,40.75971,500 -73.971425,40.75971,500 -73.972815,40.75962,500 -73.970745,40.76025,500 -73.973485,40.75909,500 -73.97155,40.759935,500 -73.97268,40.759405,500 -73.970965,40.76034,500 -73.973275,40.75899,500 -73.970295,40.76087,500 -73.973945,40.75846,500 -73.970505,40.76096,500 -73.974395,40.75783,500 -73.973725,40.75837,500 -73.969795,40.76155,500 -73.9711,40.760555,500 -73.97314,40.758775,500 -73.974185,40.75774,500 -73.970015,40.76164,500 -73.97247,40.759305,500 -73.97177,40.760025,500 -73.9706,40.761235,500 -73.97359,40.758145,500 -73.97131,40.760645,500 -73.97292,40.758685,500 -73.97338,40.758055,500 -73.97082,40.761325,500 -73.9706,40.761865,500 -73.97359,40.757515,500 -73.97314,40.758145,500 -73.9711,40.761185,500 -73.97268,40.758775,500 -73.97155,40.760565,500 -73.97082,40.761955,500 -73.97338,40.757425,500 -73.97131,40.761275,500 -73.97292,40.758055,500 -73.97223,40.759395,500 -73.97201,40.759935,500 -73.971405,40.76155,500 -73.972785,40.75783,500 -73.97247,40.758675,500 -73.97177,40.760655,500 -73.971625,40.76164,500 -73.972575,40.75774,500 -73.972335,40.75846,500 -73.971905,40.76087,500 -73.972115,40.75837,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.9857,40.7331,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 7 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97223,40.75971,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97268,40.75909,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97177,40.76034,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97201,40.75962,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97155,40.76025,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97247,40.75899,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97314,40.75846,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97131,40.76096,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.9711,40.76087,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97292,40.75837,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97359,40.75783,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97082,40.76164,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.9706,40.76155,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97338,40.75774,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-8-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Number of cases</th><td style="white-space:nowrap;">$[Number of cases]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Observed / expected</th><td style="white-space:nowrap;">$[Observed / expected]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-8-stylemap"><Pair><key>normal</key><styleUrl>#cluster-8-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-8-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>8</name>
+		<snippet>SaTScan Cluster #8</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011T10:00:00Z</begin><end>2011T10:00:00Z</end></TimeSpan>
+		<styleUrl>#cluster-8-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-7_18 to 2011-10-10_5
+</value></Data><Data name="Number of cases"><value>7508</value></Data><Data name="Test statistic"><value>3301.257646</value></Data><Data name="Observed / expected"><value>0.44</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.972115,40.76096,500 -73.97201,40.759305,500 -73.97223,40.760025,500 -73.971875,40.75909,500 -73.972355,40.76025,500 -73.971665,40.75899,500 -73.972575,40.76034,500 -73.971205,40.75962,500 -73.973035,40.75971,500 -73.971425,40.75971,500 -73.972815,40.75962,500 -73.970745,40.76025,500 -73.973485,40.75909,500 -73.97155,40.759935,500 -73.97268,40.759405,500 -73.970965,40.76034,500 -73.973275,40.75899,500 -73.970295,40.76087,500 -73.973945,40.75846,500 -73.970505,40.76096,500 -73.974395,40.75783,500 -73.973725,40.75837,500 -73.969795,40.76155,500 -73.9711,40.760555,500 -73.97314,40.758775,500 -73.974185,40.75774,500 -73.970015,40.76164,500 -73.97247,40.759305,500 -73.97177,40.760025,500 -73.9706,40.761235,500 -73.97359,40.758145,500 -73.97131,40.760645,500 -73.97292,40.758685,500 -73.97338,40.758055,500 -73.97082,40.761325,500 -73.9706,40.761865,500 -73.97359,40.757515,500 -73.97314,40.758145,500 -73.9711,40.761185,500 -73.97268,40.758775,500 -73.97155,40.760565,500 -73.97082,40.761955,500 -73.97338,40.757425,500 -73.97131,40.761275,500 -73.97292,40.758055,500 -73.97223,40.759395,500 -73.97201,40.759935,500 -73.971405,40.76155,500 -73.972785,40.75783,500 -73.97247,40.758675,500 -73.97177,40.760655,500 -73.971625,40.76164,500 -73.972575,40.75774,500 -73.972335,40.75846,500 -73.971905,40.76087,500 -73.972115,40.75837,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.9857,40.7331,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 8 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97223,40.75971,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97268,40.75909,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97177,40.76034,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97201,40.75962,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97155,40.76025,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97247,40.75899,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97314,40.75846,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97131,40.76096,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.9711,40.76087,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97292,40.75837,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97359,40.75783,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97082,40.76164,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.9706,40.76155,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97338,40.75774,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-9-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Number of cases</th><td style="white-space:nowrap;">$[Number of cases]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Observed / expected</th><td style="white-space:nowrap;">$[Observed / expected]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-9-stylemap"><Pair><key>normal</key><styleUrl>#cluster-9-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-9-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>9</name>
+		<snippet>SaTScan Cluster #9</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011T10:00:00Z</begin><end>2011T10:00:00Z</end></TimeSpan>
+		<styleUrl>#cluster-9-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-1_0 to 2011-10-3_5
+</value></Data><Data name="Number of cases"><value>5755</value></Data><Data name="Test statistic"><value>3357.868855</value></Data><Data name="Observed / expected"><value>0.40</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.972115,40.76096,500 -73.97201,40.759305,500 -73.97223,40.760025,500 -73.971875,40.75909,500 -73.972355,40.76025,500 -73.971665,40.75899,500 -73.972575,40.76034,500 -73.971205,40.75962,500 -73.973035,40.75971,500 -73.971425,40.75971,500 -73.972815,40.75962,500 -73.970745,40.76025,500 -73.973485,40.75909,500 -73.97155,40.759935,500 -73.97268,40.759405,500 -73.970965,40.76034,500 -73.973275,40.75899,500 -73.970295,40.76087,500 -73.973945,40.75846,500 -73.970505,40.76096,500 -73.974395,40.75783,500 -73.973725,40.75837,500 -73.969795,40.76155,500 -73.9711,40.760555,500 -73.97314,40.758775,500 -73.974185,40.75774,500 -73.970015,40.76164,500 -73.97247,40.759305,500 -73.97177,40.760025,500 -73.9706,40.761235,500 -73.97359,40.758145,500 -73.97131,40.760645,500 -73.97292,40.758685,500 -73.97338,40.758055,500 -73.97082,40.761325,500 -73.9706,40.761865,500 -73.97359,40.757515,500 -73.97314,40.758145,500 -73.9711,40.761185,500 -73.97268,40.758775,500 -73.97155,40.760565,500 -73.97082,40.761955,500 -73.97338,40.757425,500 -73.97131,40.761275,500 -73.97292,40.758055,500 -73.97223,40.759395,500 -73.97201,40.759935,500 -73.971405,40.76155,500 -73.972785,40.75783,500 -73.97247,40.758675,500 -73.97177,40.760655,500 -73.971625,40.76164,500 -73.972575,40.75774,500 -73.972335,40.75846,500 -73.971905,40.76087,500 -73.972115,40.75837,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.9857,40.7331,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 9 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97223,40.75971,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97268,40.75909,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97177,40.76034,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97201,40.75962,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97155,40.76025,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97247,40.75899,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97314,40.75846,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97131,40.76096,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.9711,40.76087,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97292,40.75837,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97359,40.75783,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97082,40.76164,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.9706,40.76155,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.97338,40.75774,0</coordinates></Point></Placemark>
+	</Folder>
+	<Style id="cluster-10-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Number of cases</th><td style="white-space:nowrap;">$[Number of cases]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Observed / expected</th><td style="white-space:nowrap;">$[Observed / expected]</td></tr></table>]]></text></BalloonStyle></Style>
+	<StyleMap id="cluster-10-stylemap"><Pair><key>normal</key><styleUrl>#cluster-10-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-10-style</styleUrl></Pair></StyleMap>
+    	<Placemark>
+		<name>10</name>
+		<snippet>SaTScan Cluster #10</snippet>
+		<visibility>1</visibility>
+		<TimeSpan><begin>2011T10:00:00Z</begin><end>2011T10:00:00Z</end></TimeSpan>
+		<styleUrl>#cluster-10-stylemap</styleUrl>
+		<ExtendedData><Data name="Time frame"><value>2011-10-1_23 to 2011-10-2_5
+</value></Data><Data name="Number of cases"><value>4455</value></Data><Data name="Test statistic"><value>2844.829954</value></Data><Data name="Observed / expected"><value>4.01</value></Data></ExtendedData>
+		<MultiGeometry>
+			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>-73.988265,40.71822,500 -73.98825,40.718145,500 -73.98817,40.718275,500 -73.988185,40.71835,500 -73.987775,40.71785,500 -73.98755,40.717715,500 -73.98899,40.719155,500 -73.987515,40.71778,500 -73.988925,40.71907,500 -73.987455,40.71787,500 -73.98697,40.717535,500 -73.98746,40.717905,500 -73.98905,40.719015,500 -73.98671,40.717465,500 -73.989445,40.71922,500 -73.98973,40.719385,500 -73.987005,40.71769,500 -73.989005,40.71893,500 -73.986685,40.7175,500 -73.989675,40.7193,500 -73.98665,40.717555,500 -73.98588,40.717185,500 -73.99025,40.719535,500 -73.9862,40.717375,500 -73.99048,40.719615,500 -73.98981,40.719245,500 -73.989505,40.71909,500 -73.98738,40.718035,500 -73.990445,40.71953,500 -73.989745,40.71917,500 -73.99125,40.719845,500 -73.99031,40.719405,500 -73.99055,40.719485,500 -73.987355,40.71809,500 -73.98655,40.717775,500 -73.98572,40.717515,500 -73.986525,40.71783,500 -73.985075,40.7175,500 -73.986165,40.71785,500 -73.985905,40.71778,500 -73.986745,40.71803,500 -73.992055,40.71953,500 -73.98588,40.717815,500 -73.985395,40.71769,500 -73.991285,40.7193,500 -73.991055,40.71922,500 -73.990535,40.71907,500 -73.985845,40.71787,500 -73.99125,40.719215,500 -73.98671,40.718095,500 -73.98697,40.718165,500 -73.989795,40.71884,500 -73.99048,40.718985,500 -73.9862,40.718005,500 -73.991355,40.71917,500 -73.99025,40.718905,500 -73.991115,40.71909,500 -73.984915,40.71783,500 -73.990615,40.71893,500 -73.98973,40.718755,500 -73.98755,40.718345,500 -73.98665,40.718185,500 -73.99055,40.718855,500 -73.986655,40.71822,500 -73.988975,40.71859,500 -73.985745,40.71809,500 -73.99031,40.718775,500 -73.989855,40.7187,500 -73.98572,40.718145,500 -73.98981,40.718615,500 -73.986575,40.71835,500 -73.98899,40.718525,500 -73.98655,40.718405,500 -73.987445,40.71846,500 -73.989055,40.71846,500 -73.98746,40.718535,500 -73.987365,40.71859,500 -73.98905,40.718385,500 -73.98738,40.718665,500 -73.988185,40.71884,500 -73.98817,40.718905,500 -73.988245,40.7187,500 -73.988355,40.71803,500 -73.98825,40.718775,500 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.9857,40.7331,0</coordinates></Point>
+		</MultiGeometry>
+	</Placemark>  
+    <Folder><name>Cluster 10 Locations</name><description></description>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98825,40.71846,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98746,40.71822,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98905,40.7187,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98817,40.71859,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98899,40.71884,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98738,40.71835,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98755,40.71803,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98981,40.71893,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98665,40.71787,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98973,40.71907,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98697,40.71785,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98671,40.71778,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98655,40.71809,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.99031,40.71909,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.99025,40.71922,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.9862,40.71769,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.99055,40.71917,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.99048,40.7193,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98588,40.7175,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.98572,40.71783,0</coordinates></Point></Placemark>
+			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>-73.99125,40.71953,0</coordinates></Point></Placemark>
+	</Folder>
+
+</Document>
+</kml>
